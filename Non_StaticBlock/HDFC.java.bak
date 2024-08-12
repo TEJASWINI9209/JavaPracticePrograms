@@ -1,0 +1,33 @@
+class HdfcBankAccount 
+{
+	int amountBal;
+	{
+			System.out.println("Logics to verify / Authorise Adhaar and PAN Details");
+	}
+
+	HdfcBankAccount(int amountBal){
+		System.out.println("Welcome to HDFC Bank Account Creation");
+		if(amountBal>=10000){
+			this.amountBal=this.amountBal;
+			System.out.println("Your Account has been Created, Amoubt Balance is ");
+			System.out.println("Your Account has been Created, Amoubt Balance is "+this.amountBal);
+		}
+		else{
+			System.out.println("Invalid Amount, Please enter a valid amount ");
+		}
+	}
+	int getAmountBal(){
+		System.out.println("Your latest Amount balance is");
+		return this.amountBal;
+	}
+}
+	
+class HDFC
+{
+	public static void main(String[] args) 
+	{
+	   HdfcBankAccount cust1=new HdfcBankAccount(10000);
+	   int amountBalance= cust1.getAmountBal();
+     	System.out.println(amountBalance);
+	}
+}

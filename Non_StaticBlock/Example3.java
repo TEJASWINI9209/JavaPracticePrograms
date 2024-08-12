@@ -1,0 +1,16 @@
+class Example3
+{
+	{
+		System.out.println("Inside non-Static block - One");  // Before every constructor executionn non-static block executed first
+	}
+	Example3()
+	{
+		System.out.println("Inside 0 arg Const");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		Example3 ref =new Example3();
+		System.out.println("Stop");
+	}
+}

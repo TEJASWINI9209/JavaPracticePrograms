@@ -1,0 +1,20 @@
+class Example5
+{
+	{
+		System.out.println("Inside non-Static block - One");  
+	}
+	{
+		System.out.println("Inside non-Static block - Two");  
+	}
+	Example5()
+	{
+		System.out.println("Inside 0 arg Const");
+	}
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		Example5 ref1 =new Example5();
+		System.out.println("Stop");
+	}
+}
